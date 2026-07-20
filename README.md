@@ -2,7 +2,7 @@
 
 Source for [anton-babaskin.github.io](https://anton-babaskin.github.io/), a compact professional landing page for Anton Babaskin.
 
-The page presents a general professional identity — Senior DevOps Engineer, Linux Engineer and System Administrator — and links to selected open-source infrastructure projects. Mail-related tools are listed as projects, not as the primary profile identity.
+The page presents a general professional identity — DevOps Engineer, Linux Engineer and System Administrator — and links to selected open-source infrastructure projects. Mail-related tools are listed as projects, not as the primary profile identity.
 
 ## Files
 
