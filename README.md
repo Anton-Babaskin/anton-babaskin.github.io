@@ -1,8 +1,15 @@
-# 👋 Hi, I’m **Anton Babaskin**
+# Anton Babaskin — DevOps & Linux Infrastructure
 
-**Official GitHub page of Anton Babaskin**  
-Linux & DevOps Engineer · Infrastructure Architect · System Administrator
-From Ukraine
+Source for [anton-babaskin.github.io](https://anton-babaskin.github.io/), a compact professional landing page for Anton Babaskin.
 
-[🔗 GitHub](https://github.com/Anton-Babaskin) • 
-[🔗 LinkedIn](https://www.linkedin.com/in/anton-babaskin/)  
+The page presents a general professional identity — Senior DevOps Engineer, Linux Engineer and System Administrator — and links to selected open-source infrastructure projects. Mail-related tools are listed as projects, not as the primary profile identity.
+
+## Files
+
+- `index.html` — public landing page and search metadata.
+- `sitemap.xml` — one-page sitemap for search crawlers.
+- `google9c97419bafed66e0.html` — Google Search Console verification file; keep it unchanged.
+
+## Deployment
+
+GitHub Pages publishes `main` automatically. No build step or dependencies are required.
