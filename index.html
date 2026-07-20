@@ -1,18 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Anton Babaskin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anton Babaskin — Senior DevOps Engineer, Linux Engineer and System Administrator. Production infrastructure, automation, observability and security.">
+  <meta name="author" content="Anton Babaskin">
+  <link rel="canonical" href="https://anton-babaskin.github.io/">
+  <meta property="og:title" content="Anton Babaskin — DevOps & Linux Infrastructure">
+  <meta property="og:description" content="Production infrastructure, automation, observability and security.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anton-babaskin.github.io/">
+  <title>Anton Babaskin — DevOps & Linux Infrastructure</title>
+  <style>
+    :root { color-scheme: dark; --bg: #0b1220; --panel: #111c31; --text: #e5edf9; --muted: #9fb0c8; --line: #21314d; --accent: #38bdf8; --green: #34d399; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--text); background: radial-gradient(circle at top right, #17365e 0, transparent 34rem), var(--bg); line-height: 1.6; }
+    main { width: min(960px, calc(100% - 2rem)); margin: 0 auto; padding: 4.5rem 0 3rem; }
+    .eyebrow { color: var(--accent); font-size: .82rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+    h1 { max-width: 800px; margin: .55rem 0 1rem; font-size: clamp(2.2rem, 6vw, 4.4rem); line-height: 1.05; letter-spacing: -.04em; }
+    .lead { max-width: 720px; color: var(--muted); font-size: 1.15rem; }
+    .actions, .tags { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.6rem; }
+    a { color: inherit; }
+    .button { display: inline-flex; align-items: center; padding: .65rem 1rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 700; }
+    .button.primary { border-color: var(--accent); background: var(--accent); color: #082032; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .9rem; padding: .3rem .65rem; }
+    section { margin-top: 4rem; }
+    h2 { font-size: 1.45rem; margin-bottom: .45rem; }
+    .section-copy { color: var(--muted); margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+    .card { display: block; min-height: 168px; padding: 1.25rem; border: 1px solid var(--line); border-radius: 16px; background: color-mix(in srgb, var(--panel) 88%, transparent); text-decoration: none; transition: border-color .15s ease, transform .15s ease; }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .card h3 { margin: 0 0 .45rem; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .94rem; }
+    footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+    .dot { color: var(--green); }
+  </style>
 </head>
-<body style="font-family:sans-serif;max-width:600px;margin:3rem auto;line-height:1.5">
-  <h1>👋 Hi, I’m Anton Babaskin</h1>
-  <p><strong>Official GitHub page of Anton Babaskin</strong><br>
-  Linux & DevOps Engineer · Infrastructure Architect · Mail‑in‑a‑Box<br>
-  From Ukraine</p>
-  <p>
-    <a href="https://github.com/Anton-Babaskin">GitHub</a> •
-    <a href="https://www.linkedin.com/in/anton-babaskin/">LinkedIn</a>
-  </p>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow"><span class="dot">●</span> Infrastructure & operations</div>
+      <h1>Anton Babaskin<br>DevOps & Linux Infrastructure</h1>
+      <p class="lead">Senior DevOps Engineer, Linux Engineer and System Administrator building calm, observable and secure production infrastructure.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/Anton-Babaskin">View GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/anton-babaskin/">LinkedIn</a>
+      </div>
+      <div class="tags" aria-label="Core expertise">
+        <span class="tag">Linux</span><span class="tag">DevOps</span><span class="tag">Automation</span><span class="tag">Observability</span><span class="tag">Security</span>
+      </div>
+    </header>
+
+    <section aria-labelledby="work">
+      <h2 id="work">Selected work</h2>
+      <p class="section-copy">Open-source tools for day-2 operations, fleet diagnostics and security-focused infrastructure workflows.</p>
+      <div class="grid">
+        <a class="card" href="https://github.com/Anton-Babaskin/FleetOps"><h3>🛰️ FleetOps</h3><p>Agentless Linux diagnostics with deterministic health checks and SSH collection.</p></a>
+        <a class="card" href="https://github.com/Anton-Babaskin/miab-sentry"><h3>📮 miab-sentry</h3><p>Controlled MailOps actions with auditability and explicit operator workflows.</p></a>
+        <a class="card" href="https://github.com/Anton-Babaskin/mail-sec-audit"><h3>🔐 mail-sec-audit</h3><p>Read-only-by-default security assessment for Linux mail infrastructure.</p></a>
+        <a class="card" href="https://github.com/Anton-Babaskin/sysadmins-guides"><h3>📚 sysadmins-guides</h3><p>Practical notes on Linux operations, infrastructure and troubleshooting.</p></a>
+      </div>
+    </section>
+
+    <footer>© 2026 Anton Babaskin · Built on GitHub Pages.</footer>
+  </main>
 </body>
 </html>
