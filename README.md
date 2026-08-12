@@ -1,4 +1,4 @@
-# Anton Babaskin — DevOps & Linux Infrastructure
+# Anton Babaskin DevOps & Linux Infrastructure
 
 Source for [anton-babaskin.github.io](https://anton-babaskin.github.io/), a compact professional landing page for Anton Babaskin.
 
